@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Duso Client – a free Minecraft launcher</title>
+  <meta name="description" content="Duso Client is a free, community-made launcher for Minecraft: Java Edition with Microsoft sign-in, mod management, skins and capes.">
+  <style>
+    :root { --bg: #070d09; --panel: #0f1a13; --line: #1d3324; --text: #e8f3ec; --dim: #9db5a5; --accent: #56e63a; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 820px; margin: 0 auto; padding: 48px 20px 72px; }
+    h1 { font-size: 2.4rem; margin: 0 0 8px; }
+    h1 span { color: var(--accent); }
+    h2 { margin: 40px 0 10px; font-size: 1.35rem; }
+    p, li { color: var(--dim); }
+    ul { padding-left: 1.2rem; }
+    li { margin: 6px 0; }
+    strong { color: var(--text); }
+    a { color: var(--accent); }
+    .card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 18px 22px; margin: 18px 0; }
+    .note { font-size: .92rem; }
+    footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--line); font-size: .9rem; color: var(--dim); }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0; }
+  </style>
+</head>
+<body>
+<main>
+  <h1><span>Duso</span> Client</h1>
+  <p><strong>A free, community-made launcher for Minecraft: Java Edition.</strong> Sign in with your Microsoft account, manage your installations and mods, and customise your skin and cape – all in one place. The project is in active development.</p>
+
+  <div class="card note">
+    <strong>Not an official Minecraft product.</strong> Duso Client is not approved by or associated with Mojang, Microsoft or Xbox. “Minecraft” is a trademark of Mojang AB. You need your own copy of Minecraft: Java Edition to play online.
+  </div>
+
+  <h2>What it does</h2>
+  <ul>
+    <li><strong>Installations:</strong> create separate game installations with Vanilla, Fabric, Forge or NeoForge.</li>
+    <li><strong>Mods, shaders, resource packs and data packs:</strong> search and install them from <a href="https://modrinth.com">Modrinth</a> (public API), including the extra mods they need.</li>
+    <li><strong>Skins and capes:</strong> a skin editor, a cape editor and an optional community cape shop.</li>
+    <li><strong>Settings:</strong> memory, graphics presets for more FPS, volume, key bindings, window size.</li>
+    <li><strong>Log viewer and error helper:</strong> explains typical start-up errors and offers fixes.</li>
+  </ul>
+
+  <h2>Sign-in</h2>
+  <p>Duso Client signs you in <strong>only with your Microsoft account</strong>, using the official Microsoft sign-in window and the standard Xbox / Minecraft services flow – the same flow every third-party launcher uses. The launcher never sees your password. Sign-in tokens stay on your own computer.</p>
+  <p>Duso Client does not bypass or weaken any licence or ownership check. Without a Minecraft: Java Edition licence on the signed-in account, the game only starts in demo mode.</p>
+
+  <h2>Privacy</h2>
+  <p>See the <a href="privacy.html">privacy notice</a> for exactly what is stored and where.</p>
+
+  <hr>
+
+  <h2 lang="de">Auf Deutsch</h2>
+  <p lang="de"><strong>Duso Client</strong> ist ein kostenloser Launcher für Minecraft: Java Edition, gebaut von der Community. Anmeldung <strong>nur mit deinem Microsoft-Konto</strong> (über das offizielle Microsoft-Anmeldefenster; der Launcher sieht dein Passwort nie), Installationen mit Vanilla, Fabric, Forge und NeoForge, Mods über Modrinth, Skin- und Cape-Editor, FPS-Einstellungen und ein Fehler-Doktor. Das Projekt ist in Entwicklung und <strong>kein offizielles Minecraft-Produkt</strong> (nicht von Mojang oder Microsoft genehmigt). Details zum Datenschutz: <a href="privacy.html">Datenschutz</a>.</p>
+
+  <footer>
+    Contact / Kontakt: open an issue on the project’s GitHub page / über die GitHub-Seite des Projekts (Issues).
+  </footer>
+</main>
+</body>
+</html>
